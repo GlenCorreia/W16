@@ -1,4 +1,4 @@
-![image info](./assets/diagram.png)
+![image info](./unimportant_assets/diagram.png)
 
 ---
 

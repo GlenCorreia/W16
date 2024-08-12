@@ -34,3 +34,26 @@ Once the above step is done, just add 1,<br>
    01010100
 ```
 
+Another example, given 4, find -4.<br>
+4 = 0100
+
+We know that (2^n)-1 = 16-1 = 15 = 1111.
+
+Subtract 0100 from 1111.
+
+```
+   1111
+ - 0100
+   ----
+   1011
+```
+Add 1 to above result,
+
+```
+   1011
+ + 0001
+   ----
+   1100
+```
+
+1100 corresponds to -4.

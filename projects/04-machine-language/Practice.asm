@@ -42,3 +42,51 @@ D=A
 
 @5
 M=D
+
+// Set D to 1954
+@1954
+D=A
+
+// Set D <- D + 23
+@23
+D=D+A
+
+// Set RAM[100] <- 0
+@R100
+D=M
+M=0
+
+// Or simply
+@100
+M=0
+
+// Set RAM[100] to 17
+@17
+D=A  // D = 17
+@100
+M=D  // RAM[100] = 17
+
+// Set RAM[100] <- RAM[200]
+@200
+D=M
+@100
+M=D
+
+// RAM[3] <- RAM[3] - 15
+@15
+D=A
+@3
+M=M-D
+
+// RAM[3] <- RAM[4] + 1
+@4
+D=M
+@3
+M=D+1
+
+// Or simply
+
+@4
+D=M+1
+@3
+M=D

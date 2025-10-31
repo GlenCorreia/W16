@@ -20,6 +20,10 @@ D=M
 @R17
 M=0
 
+// Set RAM[17] to D | RAM[17]=D
+@R17
+M=D
+
 // Set RAM[17] to 10 | RAM[17]=10
 @R10
 D=A 
@@ -29,5 +33,12 @@ M=D
 // Set RAM[3] to RAM[5] | RAM[5]=RAM[3]
 @3
 D=M
+@5
+M=D
+
+// Set RAM[5] to 15
+@15
+D=A
+
 @5
 M=D

@@ -2,6 +2,8 @@
 // flips the values of 
 // RAM[0] and RAM[1]
 
+// Demonstrates usage of variables
+
 // temp = R1
 // R1 = R0
 // R0 = temp

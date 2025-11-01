@@ -9,5 +9,5 @@ D=D-M // D = D - RAM[1]
 @R5
 M=D // RAM[5] = D
 
-@6
+@R6
 0;JMP

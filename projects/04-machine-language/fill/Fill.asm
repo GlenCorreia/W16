@@ -9,3 +9,24 @@
 // the screen should be cleared.
 
 //// Replace this comment with your code.
+
+
+  // @KBD
+  // D=M
+
+(LOOP)
+
+  @KBD
+  D=M
+  @BLACKOUT
+  D;JGT
+
+  @LOOP
+  0;JMP
+(BLACKOUT)
+  @24575
+  M=1
+
+  @LOOP
+  0;JMP
+(END)

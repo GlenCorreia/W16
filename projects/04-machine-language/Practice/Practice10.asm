@@ -1,12 +1,5 @@
-// Program: Manipulate first n elements of an array
-
-// for (i=0; i<n; i++) {
-//   arr[i] = -1   
-// }
-
+// Pointers
 // Suppose that arr=100 and n=10
-
-// **********
 
   // arr = 100
   @100
@@ -25,7 +18,7 @@
   M=0
 
 (LOOP)
-  // if (i == n) goto END
+  // if (i==n) goto END
   @i
   D=M
   @n
@@ -50,6 +43,3 @@
 (END)
   @END
   0;JMP
-
-// Variables that store memory addresses, like arr and i, are called pointers.
-// Line no. 40 -> A=D+M is the part that matters.
